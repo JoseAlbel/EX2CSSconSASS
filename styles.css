@@ -1,0 +1,49 @@
+* {
+  border: 1px dashed blue;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  padding: 21px;
+  background-color: aqua;
+}
+
+.header__title {
+  color: red;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.main__section {
+  flex: 2;
+  background-color: #fabada;
+}
+
+.section__text {
+  color: blue;
+}
+
+.section__text:last .section__text--colored {
+  color: blueviolet;
+}
+
+.main__sidebar {
+  background-color: blue;
+  flex: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */
